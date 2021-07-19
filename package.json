@@ -1,0 +1,22 @@
+{
+  "name": "mini-frames",
+  "version": "0.0.1",
+  "workspaces": [
+    "packages/*"
+  ],
+  "description": "Mini frames.",
+  "repository": "git@github.com:jinwuu/mini-frames.git",
+  "author": "今吾",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "husky install",
+    "lint": "eslint --ext .ts,.tsx,.js,.jsx"
+  },
+  "devDependencies": {
+    "eslint": "^7.31.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "husky": "^7.0.1",
+    "prettier": "^2.3.2"
+  }
+}
